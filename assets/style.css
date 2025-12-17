@@ -1,0 +1,160 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+/* Typography */
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.app-name {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.last-updated {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+/* Lists */
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+.intro {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.apps ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.apps li {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+}
+
+.contact {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-info {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #e74c3c;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+}
